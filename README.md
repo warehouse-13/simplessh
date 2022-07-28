@@ -1,7 +1,6 @@
 # simplessh
-[![GoDoc](https://godoc.org/github.com/sfreiberg/simplessh?status.png)](https://godoc.org/github.com/sfreiberg/simplessh)
 
-SimpleSSH is a simple wrapper around go ssh and sftp libraries.
+SimpleSSH is a fork of a simple wrapper around go ssh and sftp libraries.
 
 ## Features
 * Multiple authentication methods (password, private key and ssh-agent)
