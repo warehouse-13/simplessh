@@ -404,6 +404,10 @@ func (c *Client) ReadAll(filepath string) ([]byte, error) {
 
 // Close the underlying SSH connection
 func (c *Client) Close() error {
+	if c.SSHClient == nil {
+		return nil
+	}
+
 	return c.SSHClient.Close()
 }
 
